@@ -146,7 +146,7 @@ a{
 }
 
 
- /*Store Section */
+ /*philosophy Section */
 
 #store {
   width: 960px;
@@ -202,4 +202,123 @@ footer{
 #last span{
   font-family: Helvetica;
   font-size: 1rem;
+}
+@media  only screen and (max-width: 480px){
+  header#image{
+  background: url(../image/glasses-bg.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: 20%;
+  height: 17rem;
+  position: relative;
+
+}
+
+.head{
+  height: 3rem;
+  width:100%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  margin:0 auto;
+}
+#logo{
+  display: flex;
+  align-items: space-between;
+}
+#logo img{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+
+}
+#logo span{
+  font-family: Helvetica;
+  font-size: 1rem;
+  color:white;
+  display: none;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav li{
+  display: inline-block;
+  padding-right: 2rem;
+  line-height: 1rem;
+  position: relative;
+}
+a{
+  text-decoration: none;
+}
+
+/*banner*/
+#banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:9rem;
+  background-color: white;
+  text-align: center;
+}
+#banner span{
+  
+  padding: 1rem 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2;
+}
+/*--supporting--*/
+.supporting {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 3.77rem 0;
+}
+.supporting span{
+  font-size: 0.77rem;
+  padding-bottom: 1.54rem;
+}
+/*philosophy Section */
+
+#store {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.item {
+  padding: 5px;
+  width: 100%;
+}
+
+.item h2{
+  background-color: cadetblue;
+  font-size: 0.77rem;
+  margin-top: 3.77rem;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.item span {
+  display: block;
+  padding-top: 1px;
+  padding-bottom: 4rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+#last span{
+  font-family: Helvetica;
+  font-size: 1rem;
+  display: none;
+}
 }
