@@ -45,7 +45,7 @@ header#image{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
+  margin: 1rem auto 0 auto;
 
  }
 #logo{
